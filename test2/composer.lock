@@ -4,176 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20caca3cbe4f8032ed26ead379440756",
+    "content-hash": "3a81ea5a73ebc29fdd013d76177a616e",
     "packages": [
-        {
-            "name": "anahkiasen/underscore-php",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Anahkiasen/underscore-php.git",
-                "reference": "48f97b295c82d99c1fe10d8b0684c43f051b5580"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Anahkiasen/underscore-php/zipball/48f97b295c82d99c1fe10d8b0684c43f051b5580",
-                "reference": "48f97b295c82d99c1fe10d8b0684c43f051b5580",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/inflector": "^1.0",
-                "patchwork/utf8": "^1.2",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "fabpot/php-cs-fixer": "2.0.*@dev",
-                "phpunit/phpunit": "^4.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Underscore\\": [
-                        "src",
-                        "tests"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Maxime Fabre",
-                    "email": "ehtnam6@gmail.com"
-                }
-            ],
-            "description": "A redacted port of Underscore.js for PHP",
-            "keywords": [
-                "internals",
-                "laravel",
-                "toolkit"
-            ],
-            "time": "2015-05-16T19:24:58+00:00"
-        },
-        {
-            "name": "appzcoder/crud-generator",
-            "version": "v3.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/appzcoder/crud-generator.git",
-                "reference": "e086cdb6a9497ddb80c849626aa22ab1e379b4a4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/appzcoder/crud-generator/zipball/e086cdb6a9497ddb80c849626aa22ab1e379b4a4",
-                "reference": "e086cdb6a9497ddb80c849626aa22ab1e379b4a4",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^5.3",
-                "laravelcollective/html": "^5.3",
-                "php": ">=5.6.4"
-            },
-            "require-dev": {
-                "mockery/mockery": "^0.9.6",
-                "orchestra/testbench": "^3.3",
-                "phpunit/phpunit": "^5.7"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Appzcoder\\CrudGenerator\\": "src/"
-                },
-                "classmap": [
-                    "tests"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sohel Amin",
-                    "email": "sohelamincse@gmail.com",
-                    "homepage": "http://www.appzcoder.com"
-                }
-            ],
-            "description": "Laravel CRUD Generator",
-            "keywords": [
-                "API generator",
-                "crud",
-                "crud generator",
-                "laravel",
-                "laravel crud generator"
-            ],
-            "time": "2018-12-16T19:10:14+00:00"
-        },
-        {
-            "name": "appzcoder/laravel-admin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/appzcoder/laravel-admin.git",
-                "reference": "70fcbbd82a267b5bbd462e23945dbcf13cab43b2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/appzcoder/laravel-admin/zipball/70fcbbd82a267b5bbd462e23945dbcf13cab43b2",
-                "reference": "70fcbbd82a267b5bbd462e23945dbcf13cab43b2",
-                "shasum": ""
-            },
-            "require": {
-                "appzcoder/crud-generator": "^3.0",
-                "illuminate/support": "^5.5",
-                "laravelcollective/html": "^5.5",
-                "php": "^7.1",
-                "spatie/laravel-activitylog": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Appzcoder\\LaravelAdmin\\LaravelAdminServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Appzcoder\\LaravelAdmin\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sohel Amin",
-                    "email": "sohelamincse@gmail.com",
-                    "homepage": "http://www.appzcoder.com"
-                }
-            ],
-            "description": "Laravel Admin Panel",
-            "keywords": [
-                "admin",
-                "laravel",
-                "laravel admin",
-                "laravel admin panel"
-            ],
-            "time": "2019-03-11T18:58:02+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -638,43 +470,43 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.8.35",
+            "version": "v6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5a9e4d241a8b815e16c9d2151e908992c38db197"
+                "reference": "f38711564c642ee88a58bf180010a0c7a7ab062e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5a9e4d241a8b815e16c9d2151e908992c38db197",
-                "reference": "5a9e4d241a8b815e16c9d2151e908992c38db197",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f38711564c642ee88a58bf180010a0c7a7ab062e",
+                "reference": "f38711564c642ee88a58bf180010a0c7a7ab062e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "^1.1",
                 "dragonmantank/cron-expression": "^2.0",
-                "egulias/email-validator": "^2.0",
+                "egulias/email-validator": "^2.1.10",
                 "erusev/parsedown": "^1.7",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "league/flysystem": "^1.0.8",
-                "monolog/monolog": "^1.12",
-                "nesbot/carbon": "^1.26.3 || ^2.0",
+                "monolog/monolog": "^1.12|^2.0",
+                "nesbot/carbon": "^2.0",
                 "opis/closure": "^3.1",
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "psr/container": "^1.0",
                 "psr/simple-cache": "^1.0",
                 "ramsey/uuid": "^3.7",
                 "swiftmailer/swiftmailer": "^6.0",
-                "symfony/console": "^4.2",
-                "symfony/debug": "^4.2",
-                "symfony/finder": "^4.2",
-                "symfony/http-foundation": "^4.2",
-                "symfony/http-kernel": "^4.2",
-                "symfony/process": "^4.2",
-                "symfony/routing": "^4.2",
-                "symfony/var-dumper": "^4.2",
+                "symfony/console": "^4.3.4",
+                "symfony/debug": "^4.3.4",
+                "symfony/finder": "^4.3.4",
+                "symfony/http-foundation": "^4.3.4",
+                "symfony/http-kernel": "^4.3.4",
+                "symfony/process": "^4.3.4",
+                "symfony/routing": "^4.3.4",
+                "symfony/var-dumper": "^4.3.4",
                 "tijsverkoyen/css-to-inline-styles": "^2.2.1",
                 "vlucas/phpdotenv": "^3.3"
             },
@@ -714,47 +546,44 @@
             "require-dev": {
                 "aws/aws-sdk-php": "^3.0",
                 "doctrine/dbal": "^2.6",
-                "filp/whoops": "^2.1.4",
+                "filp/whoops": "^2.4",
                 "guzzlehttp/guzzle": "^6.3",
                 "league/flysystem-cached-adapter": "^1.0",
-                "mockery/mockery": "^1.0",
+                "mockery/mockery": "^1.2.3",
                 "moontoast/math": "^1.1",
-                "orchestra/testbench-core": "3.8.*",
+                "orchestra/testbench-core": "^4.0",
                 "pda/pheanstalk": "^4.0",
-                "phpunit/phpunit": "^7.5|^8.0",
+                "phpunit/phpunit": "^8.3",
                 "predis/predis": "^1.1.1",
-                "symfony/css-selector": "^4.2",
-                "symfony/dom-crawler": "^4.2",
+                "symfony/cache": "^4.3",
                 "true/punycode": "^2.1"
             },
             "suggest": {
-                "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (^3.0).",
+                "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage and SES mail driver (^3.0).",
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6).",
                 "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
+                "ext-memcached": "Required to use the memcache cache driver.",
                 "ext-pcntl": "Required to use all features of the queue worker.",
                 "ext-posix": "Required to use all features of the queue worker.",
-                "filp/whoops": "Required for friendly error pages in development (^2.1.4).",
+                "ext-redis": "Required to use the Redis cache and queue drivers.",
+                "filp/whoops": "Required for friendly error pages in development (^2.4).",
                 "fzaninotto/faker": "Required to use the eloquent factory builder (^1.4).",
-                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (^6.0).",
+                "guzzlehttp/guzzle": "Required to use the Mailgun mail driver and the ping methods on schedules (^6.0).",
                 "laravel/tinker": "Required to use the tinker console command (^1.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^1.0).",
                 "league/flysystem-cached-adapter": "Required to use the Flysystem cache (^1.0).",
-                "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (^1.0).",
                 "league/flysystem-sftp": "Required to use the Flysystem SFTP driver (^1.0).",
                 "moontoast/math": "Required to use ordered UUIDs (^1.1).",
-                "nexmo/client": "Required to use the Nexmo transport (^1.0).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^4.0).",
-                "predis/predis": "Required to use the redis cache and queue drivers (^1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^3.0).",
-                "symfony/css-selector": "Required to use some of the crawler integration testing tools (^4.2).",
-                "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (^4.2).",
-                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^1.1).",
+                "symfony/cache": "Required to PSR-6 cache bridge (^4.3.4).",
+                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^1.2).",
                 "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.8-dev"
+                    "dev-master": "6.x-dev"
                 }
             },
             "autoload": {
@@ -782,7 +611,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-09-03T16:44:30+00:00"
+            "time": "2019-09-05T20:31:10+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -846,74 +675,6 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
-        },
-        {
-            "name": "laravelcollective/html",
-            "version": "v5.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "0e360143d3476fe4141d267a260c140569fa207b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/0e360143d3476fe4141d267a260c140569fa207b",
-                "reference": "0e360143d3476fe4141d267a260c140569fa207b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/http": "5.8.*",
-                "illuminate/routing": "5.8.*",
-                "illuminate/session": "5.8.*",
-                "illuminate/support": "5.8.*",
-                "illuminate/view": "5.8.*",
-                "php": ">=7.1.3"
-            },
-            "require-dev": {
-                "illuminate/database": "5.8.*",
-                "mockery/mockery": "~1.0",
-                "phpunit/phpunit": "~7.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.8-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Collective\\Html\\HtmlServiceProvider"
-                    ],
-                    "aliases": {
-                        "Form": "Collective\\Html\\FormFacade",
-                        "Html": "Collective\\Html\\HtmlFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Collective\\Html\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                },
-                {
-                    "name": "Adam Engebretson",
-                    "email": "adam@laravelcollective.com"
-                }
-            ],
-            "description": "HTML and Form Builders for the Laravel Framework",
-            "homepage": "https://laravelcollective.com",
-            "time": "2019-03-01T22:53:41+00:00"
         },
         {
             "name": "league/flysystem",
@@ -1001,21 +762,21 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.24.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266"
+                "reference": "68545165e19249013afd1d6f7485aecff07a2d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
-                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/68545165e19249013afd1d6f7485aecff07a2d22",
+                "reference": "68545165e19249013afd1d6f7485aecff07a2d22",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
+                "php": "^7.2",
+                "psr/log": "^1.0.1"
             },
             "provide": {
                 "psr/log-implementation": "1.0.0"
@@ -1023,33 +784,36 @@
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
-                "jakub-onderka/php-parallel-lint": "0.9",
+                "elasticsearch/elasticsearch": "^6.0",
+                "graylog2/gelf-php": "^1.4.2",
+                "jakub-onderka/php-parallel-lint": "^0.9",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "~4.5",
-                "phpunit/phpunit-mock-objects": "2.3.0",
+                "phpspec/prophecy": "^1.6.1",
+                "phpunit/phpunit": "^8.3",
+                "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3",
                 "ruflin/elastica": ">=0.90 <3.0",
-                "sentry/sentry": "^0.13",
                 "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "sentry/sentry": "Allow sending log messages to a Sentry server"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1075,7 +839,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2018-11-05T09:00:11+00:00"
+            "time": "2019-08-30T09:56:44+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1300,65 +1064,6 @@
                 "random"
             ],
             "time": "2018-07-02T15:55:56+00:00"
-        },
-        {
-            "name": "patchwork/utf8",
-            "version": "v1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tchwork/utf8.git",
-                "reference": "30ec6451aec7d2536f0af8fe535f70c764f2c47a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/30ec6451aec7d2536f0af8fe535f70c764f2c47a",
-                "reference": "30ec6451aec7d2536f0af8fe535f70c764f2c47a",
-                "shasum": ""
-            },
-            "require": {
-                "lib-pcre": ">=7.3",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "ext-iconv": "Use iconv for best performance",
-                "ext-intl": "Use Intl for best performance",
-                "ext-mbstring": "Use Mbstring for best performance",
-                "ext-wfio": "Use WFIO for UTF-8 filesystem access on Windows"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Patchwork\\": "src/Patchwork/"
-                },
-                "classmap": [
-                    "src/Normalizer.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(Apache-2.0 or GPL-2.0)"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                }
-            ],
-            "description": "Portable and performant UTF-8, Unicode and Grapheme Clusters for PHP",
-            "homepage": "https://github.com/tchwork/utf8",
-            "keywords": [
-                "grapheme",
-                "i18n",
-                "unicode",
-                "utf-8",
-                "utf8"
-            ],
-            "time": "2016-05-18T13:57:10+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -1709,137 +1414,6 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
-        },
-        {
-            "name": "spatie/laravel-activitylog",
-            "version": "3.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-activitylog.git",
-                "reference": "89bbdbea8f085d72ba7513af989e2e54366f5794"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/89bbdbea8f085d72ba7513af989e2e54366f5794",
-                "reference": "89bbdbea8f085d72ba7513af989e2e54366f5794",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/config": "5.8.*|^6.0",
-                "illuminate/database": "5.8.*|^6.0",
-                "illuminate/support": "5.8.*|^6.0",
-                "php": "^7.2",
-                "spatie/string": "^2.1"
-            },
-            "require-dev": {
-                "ext-json": "*",
-                "orchestra/testbench": "3.8.*|^4.0",
-                "phpunit/phpunit": "^7.5|^8.0",
-                "scrutinizer/ocular": "^1.5"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Spatie\\Activitylog\\ActivitylogServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Activitylog\\": "src"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Tom Witkowski",
-                    "email": "dev.gummibeer@gmail.com",
-                    "homepage": "https://gummibeer.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A very simple activity logger to monitor the users of your website or application",
-            "homepage": "https://github.com/spatie/activitylog",
-            "keywords": [
-                "activity",
-                "laravel",
-                "log",
-                "spatie",
-                "user"
-            ],
-            "time": "2019-09-04T09:20:42+00:00"
-        },
-        {
-            "name": "spatie/string",
-            "version": "2.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/string.git",
-                "reference": "28607b9925b4f0499d48570553ca419c6298e26b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/string/zipball/28607b9925b4f0499d48570553ca419c6298e26b",
-                "reference": "28607b9925b4f0499d48570553ca419c6298e26b",
-                "shasum": ""
-            },
-            "require": {
-                "anahkiasen/underscore-php": "^2.0",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.*",
-                "scrutinizer/ocular": "~1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/string_functions.php"
-                ],
-                "psr-4": {
-                    "Spatie\\String\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "role": "Developer",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://murze.be"
-                }
-            ],
-            "description": "String handling evolved",
-            "homepage": "https://github.com/spatie/string",
-            "keywords": [
-                "handling",
-                "handy",
-                "spatie",
-                "string"
-            ],
-            "time": "2017-11-08T14:28:57+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3377,16 +2951,16 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "6c3509372c20255ac19b3b5583216daea0c2f992"
+                "reference": "a276603dbb7b9b35636d573d5709df5816dd4d2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/6c3509372c20255ac19b3b5583216daea0c2f992",
-                "reference": "6c3509372c20255ac19b3b5583216daea0c2f992",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/a276603dbb7b9b35636d573d5709df5816dd4d2b",
+                "reference": "a276603dbb7b9b35636d573d5709df5816dd4d2b",
                 "shasum": ""
             },
             "require": {
@@ -3427,20 +3001,20 @@
                 "flare",
                 "reporting"
             ],
-            "time": "2019-09-02T18:43:12+00:00"
+            "time": "2019-09-05T20:24:51+00:00"
         },
         {
             "name": "facade/ignition",
-            "version": "1.4.5",
+            "version": "1.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "c210671197f6f8761c6ed0a765941940c474484c"
+                "reference": "1f92a209c1a5a60f43c5bbff196177810e817095"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/c210671197f6f8761c6ed0a765941940c474484c",
-                "reference": "c210671197f6f8761c6ed0a765941940c474484c",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/1f92a209c1a5a60f43c5bbff196177810e817095",
+                "reference": "1f92a209c1a5a60f43c5bbff196177810e817095",
                 "shasum": ""
             },
             "require": {
@@ -3448,7 +3022,7 @@
                 "ext-mbstring": "*",
                 "facade/flare-client-php": "^1.0",
                 "facade/ignition-contracts": "^1.0",
-                "filp/whoops": "^2.1.4",
+                "filp/whoops": "^2.4",
                 "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "monolog/monolog": "^1.12|^2.0",
                 "php": "^7.1",
@@ -3487,7 +3061,7 @@
             "license": [
                 "MIT"
             ],
-            "description": "A beautiful error page for Laravel apps",
+            "description": "A beautiful error page for Laravel applications.",
             "homepage": "https://github.com/facade/ignition",
             "keywords": [
                 "error",
@@ -3495,7 +3069,7 @@
                 "laravel",
                 "page"
             ],
-            "time": "2019-09-03T21:12:03+00:00"
+            "time": "2019-09-05T21:48:35+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -5304,9 +4878,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "appzcoder/laravel-admin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

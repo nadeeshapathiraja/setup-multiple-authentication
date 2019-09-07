@@ -28,3 +28,5 @@ Route::post('/register/writer', 'Auth\RegisterController@createWriter');
 Route::view('/home', 'home')->middleware('auth');
 Route::view('/admin', 'admin');
 Route::view('/writer', 'writer');
+Route::resource('/contacts', 'ContactController');
+Route::apiResource('/contacts', 'ContactController');
